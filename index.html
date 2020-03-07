@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="tr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Extra Eğitim</title>
+<script type="text/javascript" language="javascript" src="Framework/jquery-3.2.1.min.js"></script>
+<link type="text/css" rel="stylesheet" href="Ayarlar/style.css">
+<script type="text/javascript" language="javascript" src="Ayarlar/script.js"></script>
+
+</head>
+
+<body onscroll="yukariOkKontrol()" id="body">
+    <div id="TumSayfaAlani">
+        <header>
+            <div id="HeaderAlani">
+                <div id="HeaderMenuSinirlamaAlani">
+                    <div id="HeaderMenuLogoAlani">
+                        <a href="WebSitem.html" target="_top"><img src="Resimler/AnaLogo.png"  alt="" title=""></a>
+                    </div>
+                    <div id="HeaderMenuNavAlani">
+                        <nav id="HeaderMenuNav">
+                            <ul id="HeaderMenuSeceneklerAlani">
+                            <li class="HeaderMenuSecenekleri"><a href="WebSitem.html" target="_top">Ana Sayfa</a></li>
+                            <li class="HeaderMenuSecenekleri EgitimSetiAcma"><a>Eğitim Setleri</a>
+                                <ul id="EgitimSetiTurleriAlani">
+                                    <li class="EgitimSetiTuru"><a href="WebProgramlamaVideoları.html" target="_blank">Web Programlama</a></li>
+                                    <li class="EgitimSetiTuru"><a href="MobilProgramlamaVideoları.html" target="_blank">Mobil Uygulama Geliştirme</a></li>
+                                    <li class="EgitimSetiTuru"><a href="MasaüstüProgramlamaVideoları.html" target="_blank">Masaüstü Uygulama Geliştirme</a></li>
+                                </ul>
+                            </li>
+                            <li class="HeaderMenuSecenekleri"><a href="HakkimdaSayfasi.html" target="_blank">Hakkımda</a></li>
+                            <li class="HeaderMenuSecenekleri"><a href="IletisimSayfasi.html" target="_blank">İletişim</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div id="HeaderMenuAcmaButonuAlani">
+                        <img src="Resimler/MenuCizgileri.png"  alt="" title="">
+                    </div>
+                </div>
+                <div id="HeaderMenuAcmaButonuMenuSinirlamaAlani" style="display:none;">
+				    <div id="HeaderMenuAcmaButonuMenu">
+					    <ul id="HeaderMenuAcmaButonuMenuSeceneklerAlani">
+						    <li class="HeaderMenuAcmaButonuMenuSecenekleri"><a href="WebSitem.html" target="_top">Ana Sayfa</a></li>
+                            <li class="HeaderMenuAcmaButonuMenuSecenekleri AltMenuAc"><a>Eğitim Setleri</a></li>
+                            <div id="HeaderMenuAcmaButonuMenuSinirlamaAltAlani" style="display:none;">
+                                <div id="HeaderMenuAcmaButonuAltMenu">
+                                    <ul id="HeaderMenuAcmaButonuMenuSeceneklerAltAlani">
+                                        <li class="HeaderMenuAcmaButonuMenuAltSecenekleri"><a href="WebProgramlamaVideoları.html" target="_blank">Web Programlama</a></li>
+                                        <li class="HeaderMenuAcmaButonuMenuAltSecenekleri"><a href="MobilProgramlamaVideoları.html" target="_blank">Mobil Uygulama Geliştirme</a></li>
+                                        <li class="HeaderMenuAcmaButonuMenuAltSecenekleri"><a href="MasaüstüProgramlamaVideoları.html" target="_blank">Masaüstü Uygulama Geliştirme</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+						    <li class="HeaderMenuAcmaButonuMenuSecenekleri"><a href="HakkimdaSayfasi.html" target="_blank">Hakkımda</a></li>
+						    <li class="HeaderMenuAcmaButonuMenuSecenekleri"><a href="IletisimSayfasi.html" target="_blank">İletişim</a></li>
+					    </ul>
+				    </div>
+			    </div>
+            </div>
+        </header>
+
+        <main style="top:75px;">
+            <div class="SlaytAlaniKapsayicisi">
+                <ul class="SlaytAlaniResimleri">
+                    <li class="SlaytResmi"><img src="Resimler/bootstrap.png"  alt="" title=""></li>
+                    <li class="SlaytResmi"><img src="Resimler/kotlin.png"  alt="" title=""></li>
+                    <li class="SlaytResmi"><img src="Resimler/javascript.png"  alt="" title=""></li>
+                    <li class="SlaytResmi"><img src="Resimler/sap.png"  alt="" title=""></li>
+                </ul>
+            </div>
+
+
+
+
+
+
+            <div id="TamSayfaAlani">    
+                <div id="TamSayfaSinirlamaAlani">
+                    <div id="TamSayfaSolSutunAlani">
+                        <div id="TamSayfaSolSutunSinirlamaAlani">
+                            <div id="TamSayfaSolSutunSinirlamaAlaniIciBaslik">Güncel İçerikler</div>
+                            <div class="YeniIletiler">
+                                <a onclick="modalAc(1)">Yeni Php7 Eğitim Seti Çıktı.</a>
+                            </div>
+                            <div class="YeniIletiler">
+                                <a onclick="modalAc(2)">Yeni Javascript Eğitim Seti Çıktı.</a>
+                            </div>
+                            <div class="YeniIletiler">
+                                <a onclick="modalAc(3)">Yeni Kotlin Eğitim Seti Çıktı.</a>
+                            </div>
+                        </div>
+                     
+
+                        <div id="TamSayfaSolSutunSinirlamaAlani">
+                            <div id="TamSayfaSolSutunSinirlamaAlaniIciBaslik">Duyurular</div>
+                            <div class="YeniIletiler">
+                                <a onclick="duyuruAc(1)">Bakım Çalışması</a>
+                            </div>
+                            <div class="YeniIletiler">
+                               <a onclick="duyuruAc(2)">Yeni Bilgisayarlar Hakkında Bilgilendirme</a>
+                            </div>
+                            <div class="YeniIletiler">
+                                <a onclick="duyuruAc(3)">Mobil Uygulama Geliştiricilerinin Dikkatine</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+
+
+                    <div id="TamSayfaSagSutunSinirlamaAlani">
+                        <div id="TamSayfaYeniUrunlerBaslikAlani">Vitrin</div>
+                        <div id="TamSayfaSagSutunIciUrunlerAlani">
+                            <div id="TamSayfaSagSutunIciUrunlerDengelemeAlani">
+                                
+                               
+                                <div class="TamSayfaSagSutunIciUrunSinirlamaAlani">
+                                    <div class="TamSayfaSagSutunIciUrunResmiDisCercevesi">
+                                        <a>
+                                            <iframe  src="https://www.youtube.com/embed/cPVyfZVnJkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunUstBaslikMetni">
+                                        <a>Laravel Eğitim Seti</a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunAltBaslikMetni">
+                                        <a >Emrah Yüksel</a>
+                                    </div>
+
+                                    <div class="TamSayfaSagSutunIciUrunPuanYildizlariAlani">
+                                        <a><img src="Resimler/YildizCizgiliDortDolu.png" alt="" title=""></a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunFiyatlariAlani">
+                                        <button><a href="https://www.udemy.com/course/laravel-egitimi/" target="_blank">Kursa Git</a></button>
+                                    </div>
+                                </div>
+
+
+
+                                
+                                <div class="TamSayfaSagSutunIciUrunSinirlamaAlani">
+                                    <div class="TamSayfaSagSutunIciUrunResmiDisCercevesi">
+                                        <a>
+                                            <iframe src="https://www.youtube.com/embed/gL0MSfU9BRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunUstBaslikMetni">
+                                        <a>45+ Saatlik C# Kamp Kursu</a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunAltBaslikMetni">
+                                        <a>Engin Demiröğ</a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunPuanYildizlariAlani">
+                                        <a><img src="Resimler/YildizCizgiliDortDolu.png"  alt="" title=""></a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunFiyatlariAlani">
+                                       <button><a href="https://www.udemy.com/course/c-sharp-kursu/" target="_blank">Kursa Git</a></button>
+                                    </div>
+                                </div>
+
+
+
+                                
+                                <div class="TamSayfaSagSutunIciUrunSinirlamaAlani">
+                                    <div class="TamSayfaSagSutunIciUrunResmiDisCercevesi">
+                                        <a>
+                                            <iframe  src="https://www.youtube.com/embed/zUyLhx1YWtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunUstBaslikMetni">
+                                        <a>Kotlin ile Android Uygulama Geliştirme</a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunAltBaslikMetni">
+                                        <a>Emre Altunbilek</a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunPuanYildizlariAlani">
+                                        <a><img src="Resimler/YildizCizgiliUcDolu.png"  alt="" title=""></a>
+                                    </div>
+                                    <div class="TamSayfaSagSutunIciUrunFiyatlariAlani">
+                                        <button><a href="https://www.udemy.com/course/sifirdan-ileri-seviyeye-kotlin-ve-android-kursu/" target="_blank">Kursa Git</a></button>
+                                    </div>
+                                </div>
+                                
+                           
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </main>
+
+        <footer style="top:75px">
+            <div id="FooterMenulerAlani">
+                <div id="FooterMenulerSinirlamaAlani">
+                    
+                    <div class="FooterMenuleriSutunlarAlani">
+                        <div class="FooterMenuleriSutunlariBaslikAlani">İletişim</div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani">E-mail: t-ersoylu41@hotmail.com</div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani">Telefon Numarası: 05303044399</div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani">Adres: Vatan Cad. No:56 Kat:2 yeniköy Başiskele/Kocaeli</div>
+                    </div>
+                    
+                    <div class="FooterMenuleriSutunlarAlani FooterMenuleriSutunlarTemizleAlani">
+                        <div class="FooterMenuleriSutunlariBaslikAlani">Bilgilendirme</div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani">Bu site Tarık Ahmet Ersoylu tarafından proje amaçlı yapılmıştır.</div>
+                    </div>
+                
+                    <div class="FooterMenuleriSutunlarAlani">
+                        <div class="FooterMenuleriSutunlariBaslikAlani">Bizi Takip Edin</div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani"><a href="https://www.facebook.com" target="_top"><img src="Resimler/Facebook16x16.png"  alt="" title="">Facebook</a></div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani"><a href="https://www.twitter.com" target="_top"><img src="Resimler/Twitter16x16.png"  alt="" title="">Twitter</a></div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani"><a href="https://www.linkedin.com" target="_top"><img src="Resimler/LinkedIn16x16.png"  alt="" title="">LinkedIn</a></div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani"><a href="https://plus.google.com" target="_top"><img src="Resimler/GooglePlus16x16.png"  alt="" title="">Google+</a></div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani"><a href="https://www.instagram.com" target="_top"><img src="Resimler/Instagram16x16.png"  alt="" title="">Instagram</a></div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani"><a href="https://tr.pinterest.com/" target="_top"><img src="Resimler/Pinterest16x16.png"  alt="" title="">Pinterest</a></div>
+                        <div class="FooterMenuleriSutunlariMenulerAlani"><a href="https://www.youtube.com/" target="_top"><img src="Resimler/YouTube16x16.png"  alt="" title="">YouTube</a></div>
+                    </div>
+                </div>
+            </div>
+            <div id="FooterAltMetniAlani">
+                <div id="FooterAltMetniSinirlamaAlani">Copyright &copy; 2009 - 2018 ExtraEgitim.com Her Hakkı Saklıdır.</div>
+            </div>
+        </footer>
+    </div>
+
+
+    <div id="YukariOku" onclick="yukariCık()">
+        <img src="Resimler/yukariOk.jpg">
+    </div>
+    
+
+    
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="modalKapat(1)">&times;</span>
+            <iframe  style="height:500px;" id="video1" src="https://www.youtube.com/embed/rhA41lmMXjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="modalKapat(2)">&times;</span>
+            <iframe style="height:500px;" id="video2" src="https://www.youtube.com/embed/4dY9V5bM9F8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="modalKapat(3)">&times;</span>
+            <iframe style="height:500px;" id="video3" src="https://www.youtube.com/embed/zUyLhx1YWtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="DuyuruModal">
+        <div class="DuyuruModalIcerik">
+            <div id="DuyuruModalHeaderAlani">
+                <span class="close" onclick="duyuruKapat(1)">&times;</span>
+                Bakım Çalışması Hakkında Bİlgilendirme
+            </div>
+            <div id="DuyuruModalBodyAlani">
+                <table>
+                    <tr>
+                        <th class="DuyurularAltBaslikBoyutBelirleme">Duyuru Yayınlanma Tarihi:</th>
+                        <td>04/03/2020-04/10/2020</td>
+                    </tr>
+                    <tr>
+                        <th class="DuyurularAltBaslikBoyutBelirleme">Açıklama:</th>
+                        <td>asdwerwrygh5yı6879ıok68u7rj5yu 5yujh5etyue45ty345wt3w45tg w45tyw534ye465y4e5asdwerwrygh5yı6879ıok68u7rj5yu 5yujh5etyue45ty345wt3w45tg w45tyw534ye465y4e5asdwerwrygh5yı6879ıok68u7rj5yu 5yujh5etyue45ty345wt3w45tg w45tyw534ye465y4e5</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="DuyuruModal">
+        <div class="DuyuruModalIcerik">
+            <div id="DuyuruModalHeaderAlani">
+                <span class="close" onclick="duyuruKapat(2)">&times;</span>
+                Bakım Çalışması Hakkında Bİlgilendirme 2
+            </div>
+            <div id="DuyuruModalBodyAlani">
+                <table>
+                    <tr>
+                        <th class="DuyurularAltBaslikBoyutBelirleme">Duyuru Yayınlanma Tarihi:</th>
+                        <td>04/03/2020-04/10/2020</td>
+                    </tr>
+                    <tr>
+                        <th class="DuyurularAltBaslikBoyutBelirleme">Açıklama:</th>
+                        <td>Lab. ile ilgili bilgiler ilgili linktedir. https://drive.google.com/open?id=1N-Su8xxwC3bVstB9_E0BBi5NJ2SQZuHT</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="DuyuruModal">
+        <div class="DuyuruModalIcerik">
+            <div id="DuyuruModalHeaderAlani">
+                <span class="close" onclick="duyuruKapat(3)">&times;</span>
+                Bakım Çalışması Hakkında Bİlgilendirme 3
+            </div>
+            <div id="DuyuruModalBodyAlani">
+                <table>
+                    <tr>
+                        <th class="DuyurularAltBaslikBoyutBelirleme">Duyuru Yayınlanma Tarihi:</th>
+                        <td>04/03/2020-04/10/2020</td>
+                    </tr>
+                    <tr>
+                        <th class="DuyurularAltBaslikBoyutBelirleme">Açıklama:</th>
+                        <td>asdwerwrygh5yı6879ıok68u7rj5yu 5yujh5etyue45ty345wt3w45tg w45tyw534ye465y4e5asdwerwrygh5yı6879ıok68u7rj5yu 5yujh5etyue45ty345wt3w45tg w45tyw534ye465y4e5asdwerwrygh5yı6879ıok68u7rj5yu 5yujh5etyue45ty345wt3w45tg w45tyw534ye465y4e5</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
