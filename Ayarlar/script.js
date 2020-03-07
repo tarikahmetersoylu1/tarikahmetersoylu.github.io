@@ -182,11 +182,13 @@ function duyuruKapat(deger){
 
 
 function duzenleButonu(){
+	
 	var metin	=	document.getElementById("TamSayfaCerceveAlaniIciGenelBilgilendirmeMetniAlani");
 	var buton	=	document.getElementById("Duzenle");
 	var resim	=	document.getElementById("CvResim");
 
 	if(buton.textContent			==	"Duzenle"){
+		alert("Türkçe karakter kullanılmamalıdır.")
 		buton.textContent			=	"Kaydet";
 		metin.contentEditable		=	"true";
 		metin.style.backgroundColor	=	"rgba(128, 128, 128, 0.1)";
